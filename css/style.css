@@ -201,7 +201,7 @@ a:focus-visible, button:focus-visible {
 }
 
 .hero-eyebrow {
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   color: var(--clay);
   margin-bottom: 1rem;
   font-family: var(--font-body);
