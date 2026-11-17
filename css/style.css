@@ -243,6 +243,13 @@ a:focus-visible, button:focus-visible {
   margin: 14px;
 }
 
+.portrait-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
 /* --------------------------------------------------------------------
    Sections
    -------------------------------------------------------------------- */
@@ -425,6 +432,7 @@ section { padding: 4.5rem 0; }
   margin-top: 1.5rem;
 }
 .contact-info dd { margin: 0.2rem 0 0; }
+.contact-info dd a { color: var(--forest); text-decoration: underline; }
 
 @media (max-width: 640px) {
   .contact-methods { grid-template-columns: 1fr; }
